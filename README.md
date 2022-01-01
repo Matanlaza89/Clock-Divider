@@ -12,9 +12,9 @@ This entity divides the frequency of the 50 MHz main FPGA clock into a new desir
 </p>
 <table>
     <tr>
-            <td><img src="https://github.com/Matanlaza89/Clock-Divider/blob/main/images/clockDividerBlock.JPG" alt="TEST"></td>
+            <td><img src="https://github.com/Matanlaza89/Clock-Divider/blob/main/images/clockDividerBlock.JPG" alt=""></td>
             <td><img src="https://github.com/Matanlaza89/Clock-Divider/blob/main/images/clockDivider.jpg" alt=""></td>
-            <td><img src="https://github.com/Matanlaza89/Clock-Divider/blob/main/images/clockDividerTB.jpg" alt="1 MHz Clock Divider"></td>
+            <td><img src="https://github.com/Matanlaza89/Clock-Divider/blob/main/images/clockDividerTB.jpg" alt=""></td>
 </table>
 
 <h1><u>Testbench Tasks</u></h1>
