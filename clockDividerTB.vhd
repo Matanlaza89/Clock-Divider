@@ -14,7 +14,7 @@ entity clockDividerTB is
 end entity clockDividerTB;
 
 architecture sim of clockDividerTB is
-	-- constants
+	-- Constants --
 	constant c_FREQ : natural := 1_000_000; -- Desired frequency - 1 MHz
 	constant c_PERIOD : time := 20 ns; -- T = 1/f => T=1/50*10^6 => T = 20nsec
 	
@@ -36,7 +36,8 @@ begin
 			i_clk   => i_clk ,
 			i_reset => i_reset ,  
 			o_clk   => o_clk,
-			o_tick  => o_tick);
+			o_tick  => o_tick
+                 );
 
 
 	-- Testbench process --
