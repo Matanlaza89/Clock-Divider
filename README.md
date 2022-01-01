@@ -1,5 +1,3 @@
-
-
 <h2><u>Welcome to Clock Divider Personal Project using VHDL</u></h2>
 <p>
 This entity divides the frequency of the 50 MHz main FPGA clock into a new desired clock signal.
