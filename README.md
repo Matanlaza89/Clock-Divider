@@ -6,11 +6,11 @@ This entity divides the frequency of the 50 MHz main FPGA clock into a new desir
 </p>
 <h4><u>Files included:</u></h4>
 <p>
-* clockDivider.vhd  -  Entity RTL Code<br>
-* clockDividerTB.vhd  -  Testbench RTL Code<br>
-* clockDividerBlock.JPG  -  Entity block<br>
-* clockDivider.jpg  -  The design shell<br>
-* clockDividerTB.jpg  -  Testing the entity to get 1 MHz new clock<br>
+- clockDivider.vhd  =>  Entity RTL Code<br>
+- clockDividerTB.vhd  =>  Testbench RTL Code<br>
+- clockDividerBlock.JPG  =>  Entity block<br>
+- clockDivider.jpg  =>  The design shell<br>
+- clockDividerTB.jpg  =>  Testing the entity to get 1 MHz new clock<br>
 </p>
 <table>
     <tr>
