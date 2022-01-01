@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
--------			                Clock Divider				   	      -------
+-------			         Clock Divider		              -------
 -----------------------------------------------------------------------------
 ------ This entity divides the frequency of the 50MHz main FPGA clock -------
 -----------------------------------------------------------------------------
@@ -14,8 +14,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity clockDivider is
-generic(g_FREQ : integer := 1); -- Desired clock frequency , default is 1 hz
-port (
+	generic(g_FREQ : integer := 1); -- Desired clock frequency , default is 1 hz
+	port (
 		-- Inputs --
 		i_clk   : in std_logic;
 		i_reset : in std_logic;
@@ -23,7 +23,7 @@ port (
 		-- Outputs --
 		o_clk    : out std_logic;
 		o_tick   : out std_logic
-		);
+	     );
 end entity clockDivider;
 
 architecture rtl of clockDivider is
