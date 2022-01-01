@@ -77,7 +77,7 @@ begin
 				s_clk_tick <= '1';	
 				
 			else
-				s_clk_tick <= '0';
+				s_clk_tick <= '0'; 
 				r_cnt_tick <= r_cnt_tick + 1;
 				
 			end if; -- r_cnt_tick
