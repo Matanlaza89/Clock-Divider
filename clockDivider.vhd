@@ -63,7 +63,7 @@ begin
 	o_clk <= s_new_clk;
 	
 	
-	-- This process creates a new clock with a 50% duty cycle --
+	-- This process creates a pulse every X Hz , 1/x will be the time interval for the pulse --
 	p_clock_tick : process (i_clk , i_reset) is
 	begin
 		if (i_reset = '0') then -- asynchronous reset
@@ -85,7 +85,7 @@ begin
 		end if; -- i_reset / rising_edge(i_clk)
 	end process p_clock_tick;
 	
-	-- New clock single pulse signal --
+	-- New pulse signal --
 	o_tick <= s_clk_tick;
 	
 end architecture rtl;
